@@ -1,0 +1,76 @@
+/* ---------- WEB RÁDIO ---------- */
+
+.container_sites-webRadio {
+    background-color: #171027;
+    text-align: center;
+}
+
+.titulo_sites-webRadio {
+    color: #ffffff;
+    font-family: MuseoModerno;
+    font-size: 42px;
+    font-weight: bold;
+    padding: 30px 0px 60px 0px;
+}
+
+.conteudo_sites-webRadio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0px 60px 0px 60px;
+    padding-bottom: 60px;
+}
+
+.produto_sites-webRadio {
+    height: 420px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.produto_sites-webRadio ul:nth-child(1) p{
+    color: #ffffff;
+    font-family: MuseoModerno;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* ---------- WEB TV ---------- */
+
+.container_sites-webTV {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.titulo_sites-webTV {
+    color: #171027;
+    font-family: MuseoModerno;
+    font-size: 42px;
+    font-weight: bold;
+    padding: 30px 0px 60px 0px;
+}
+
+.conteudo_sites-webTV {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0px 60px 0px 60px;
+    padding-bottom: 60px;
+}
+
+.produto_sites-webTV {
+    height: 420px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.produto_sites-webTV ul:nth-child(1) p {
+    color: #171027;
+    font-family: MuseoModerno;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.imagem_site {
+    border: #171027 solid 1px;
+    width: 368px;
+}

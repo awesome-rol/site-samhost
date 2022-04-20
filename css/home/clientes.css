@@ -1,0 +1,30 @@
+.container_clientes {
+    background-color: #171027;
+}
+
+.conteudo_clientes {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 120px 30px 120px;
+}
+
+.cliente {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.imagem_cliente {
+    border: solid;
+    border-color: #ffffff;
+    border-radius: 50%;
+}
+
+.fala_cliente {
+    color: #ffffff;
+    font-family: MuseoModerno;
+    font-size: 20px;
+    padding: 30px;
+    width: 300px;
+}

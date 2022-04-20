@@ -1,0 +1,41 @@
+.container_nossasMetas {
+    background-color: #ffffff;
+    display: flex;
+    height: 550px;
+    justify-content: space-between;
+}
+
+.conteudo_nossasMetas {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 1006px;
+}
+
+.titulo_nossasMetas {
+    color: #171027;
+    font-family: MuseoModerno;
+    font-size: 42px;
+    font-weight: bold;
+    margin: 30px 0px 20px 30px;
+}
+
+.textos_nossasMetas {
+    height: 550px;
+    margin-top: 20px;
+    width: 795px;
+    text-align: justify;
+}
+
+.paragrafo_nossasMetas {
+    color: #171027;
+    font-family: MuseoModerno;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 0px 30px 30px;
+}
+
+.imagem_nossasMetas {
+    width: 360px;
+}

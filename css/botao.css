@@ -1,0 +1,20 @@
+.botao {
+    background-color: #171027;
+    border: 4px;
+    border-style: solid;
+    color: #f3ae1a;
+    font-family: MuseoModerno;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 90px 10px 90px;
+    text-decoration: none;
+}
+
+.botao:hover {
+    color: #ff9100;
+    cursor: pointer;
+}
+
+.botao:active {
+    color: #ffffff;
+}

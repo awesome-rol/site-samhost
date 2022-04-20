@@ -1,0 +1,50 @@
+.rodape {
+    align-items: center;
+    background-color: #171027;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.copyright {
+    color: #ffffff;
+    font-family: MuseoModerno;
+    font-size: 12px;
+    margin: 20px 0px 20px 60px;
+    width: 600px;
+} 
+
+.links_rodape a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.links_rodape a:hover {
+    color: #f3ae1a;
+}
+
+.links_rodape a:active {
+    color: #ff9100;
+}
+
+.links_rodape {
+    align-items: center;
+    display: flex;
+    font-family: MuseoModerno;
+    font-size: 15px;
+    justify-content: space-around;
+    margin: 0px 60px 0px 0px;
+    width: 300px;
+}
+
+.contato {
+    border: 4px;
+    border-color: #ffffff;
+    border-right-style: solid;
+    margin-right: 20px;
+    padding: 0px 20px 0px 50px;
+}
+
+.contratos {
+    width: 180px;
+}

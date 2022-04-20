@@ -1,0 +1,29 @@
+.introducao {
+    height: 630px;
+    vertical-align: top;
+    width: 100vw;
+}
+
+.logomarca_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.logomarca_samhost {
+    padding: 35px 0 40px 0;
+}
+
+.sublinhado_logomarca {
+    width: 330px;
+}
+
+.frase_logomarca {
+    font-size: 33px;
+    font-family: MuseoModerno;
+    font-weight: bold;
+    color: #171027;
+    text-align: center;
+    padding: 30px 0 80px 0;
+}

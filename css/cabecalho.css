@@ -1,0 +1,47 @@
+.container_cabecalho {
+    background-color: #171027;
+    width: 100%;
+}
+
+.conteudo_cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cabecalho_logo {
+    margin-left: 60px;
+    padding: 12px 0 12px 0px;
+}
+
+.cabecalho_menu {
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.nav_menu {
+    color: #ffffff;
+    font-family: MuseoModerno;
+    font-size: 15px;
+    height: 25px;
+    padding-bottom: 37px;
+    text-decoration: none;
+}
+
+.nav_menu:hover {
+    border-bottom: #ffffff;
+    border-style: solid;
+}
+
+.cabecalho_menu li {
+    margin: 0px 30px 0px 30px;
+}
+
+/*---------- TABLETS ----------*/
+
+@media screen and (max-width: 1024px) {
+
+
+
+}

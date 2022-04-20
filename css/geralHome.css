@@ -1,0 +1,27 @@
+/* Principal */
+html, body 
+{ 
+ height: 100%;
+ overflow-x: hidden;
+}
+
+/* ------------------- HOME ------------------- */
+
+@font-face {
+    font-family: MuseoModerno;
+    src: url(../fontes/MuseoModerno/MuseoModerno-VariableFont_wght.ttf)
+}
+
+/* Introdução */
+
+.introducao {
+    background-image: url(../imagens/home/home-bg.jpg);
+}
+
+/* Conheça nossos produtos */
+
+.container_imagensProduto {
+    background-image: url(../imagens/bg-produto.jpg);
+}
+
+/* ------------------- FIM DA HOME ------------------- */

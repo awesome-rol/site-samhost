@@ -1,0 +1,19 @@
+.imagem_introducao {
+    position: relative;
+    height: 300px;
+    vertical-align: top;
+    width: 100%;
+    z-index: 1;
+}
+
+.titulo_contratos {
+    color: #171027;
+    font-family: MuseoModerno;
+    font-size: 120px;
+    position: absolute;
+    margin: 90px auto 0px auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 2;
+}

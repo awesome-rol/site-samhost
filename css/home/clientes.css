@@ -28,3 +28,27 @@
     padding: 30px;
     width: 300px;
 }
+
+@media screen and (max-width: 1024px) {
+    .imagem_cliente {
+        height: 130px;
+        width: 130px;
+    }
+
+    .fala_cliente {
+        font-size: 16px;
+        height: 100px;
+        padding: 30px 0px 0px 0px;
+        text-align: center;
+        width: 230px;
+    }
+
+    .conteudo_clientes {
+        padding: 30px 60px 30px 60px;
+    }
+
+    .cliente {
+        flex-direction: column;
+        margin-left: 0px;
+    }
+}

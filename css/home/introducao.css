@@ -30,6 +30,8 @@
 
 /* ---------- TABLETS ------------ */
 
-.introducao {
-    display: none;
+@media screen and (max-width: 1024px) {
+    .introducao {
+        display: none;
+    }
 }

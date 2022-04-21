@@ -1,7 +1,6 @@
 .container_porqueNos {
     display: flex;
     justify-content: space-between;
-    width: 100vw;
 }
 
 .conteudo_porqueNos {
@@ -27,7 +26,7 @@
     justify-content: space-between;
     align-items: center;
     width: 960px;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 30px;
 }
 
 .vantagem {
@@ -35,13 +34,7 @@
     margin: 0px 30px 60px 30px;
 }
 
-.vantagem:nth-child(odd) {
-    margin-left: 60px;
-}
 
-.vantagem:nth-child(even) {
-    margin-right: 60px;
-}
 
 .imagens_vantagem {
     position: relative;
@@ -85,3 +78,18 @@
     width: auto;
     height: auto;
 }
+
+/* ---------- TABLETS ---------- */
+
+@media screen and (max-width: 1024px) {
+    .imagem_equipeSuporte {
+        display: none;
+    }
+    
+    .container_vantagens {
+        justify-content: space-around;
+        margin: 0px 30px;
+        width: 100%;
+    }
+}
+

@@ -80,16 +80,3 @@
 }
 
 /* ---------- TABLETS ---------- */
-
-@media screen and (max-width: 1024px) {
-    .imagem_equipeSuporte {
-        display: none;
-    }
-    
-    .container_vantagens {
-        justify-content: space-around;
-        margin: 0px 30px;
-        width: 100%;
-    }
-}
-

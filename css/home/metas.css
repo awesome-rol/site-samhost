@@ -39,13 +39,3 @@
 .imagem_nossasMetas {
     width: 360px;
 }
-
-@media screen and (max-width: 1024px) {
-    .imagem_nossasMetas {
-        display: none;
-    }
-
-    .textos_nossasMetas {
-        width: 695px;
-    }
-}

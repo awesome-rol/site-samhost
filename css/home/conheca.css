@@ -81,23 +81,3 @@
 .btn_produto:active {
     color: #ffffff;
 }
-
-@media screen and (max-width: 1024px) {
-    .conteudo_conheca {
-        width: 100%;
-    }
-
-    .container_legendaProduto {
-        width: 230px;
-    }
-
-    .titulo_produto {
-        font-size: 20px;
-    }
-
-    .legendaProduto {
-        font-size: 12px;
-        width: 200px;
-    }
-
-}

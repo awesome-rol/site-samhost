@@ -38,3 +38,13 @@
 .imagem_sobreNos {
     width: 360px;
 }
+
+@media screen and (max-width: 1024px) {
+    .imagem_sobreNos {
+        display: none;
+    }
+
+    .textos_sobreNos {
+        width: 725px;
+    }
+}

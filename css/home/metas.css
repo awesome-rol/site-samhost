@@ -1,7 +1,7 @@
 .container_nossasMetas {
     background-color: #ffffff;
     display: flex;
-    height: 550px;
+    height: 580px;
     justify-content: space-between;
 }
 
@@ -38,4 +38,14 @@
 
 .imagem_nossasMetas {
     width: 360px;
+}
+
+@media screen and (max-width: 1024px) {
+    .imagem_nossasMetas {
+        display: none;
+    }
+
+    .textos_nossasMetas {
+        width: 695px;
+    }
 }

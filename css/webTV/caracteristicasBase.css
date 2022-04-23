@@ -9,8 +9,8 @@
 .conteudo_base {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 0px 60px 60px 60px;
+    justify-content: space-between;
+    margin: 0px 30px 60px 30px;
 }
 
 .titulo_base {
@@ -31,8 +31,8 @@
 .texto_caracteristica {
     color: #ffffff;
     font-family: MuseoModerno;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 35px;
     text-align: center;
-    width: 150px;
+    width: 120px;
 }

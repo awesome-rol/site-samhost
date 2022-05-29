@@ -10,20 +10,18 @@
     justify-content: space-between;
 }
 
-.cabecalho_logo-tablet {
+.cabecalho_logo-mobile {
     display: none;
-}
-
-.cabecalho_logo {
-    font-family: MuseoModerno;
     height: 80px;
-    margin-left: 30px;
     padding: 10px 0px;
     width: 200px;
 }
 
-.sublinhado_logo-tablet {
-    display: none;
+.cabecalho_logo {
+    height: 80px;
+    margin-left: 30px;
+    padding: 10px 0px;
+    width: 200px;
 }
 
 .cabecalho_menu {
@@ -70,8 +68,13 @@
 
 
 @media screen and (max-width: 1024px) {
-    .cabecalho_logo {
+    .cabecalho_logo-mobile {
+        display: block;
         margin-left: 20px;
+    }
+
+    .cabecalho_logo {
+        display: none;
     }
 
 

@@ -15,20 +15,25 @@
 </head>
 <body>
     <main>
-        <header class="container_cabecalho">
+        <header class="container_cabecalho"> 
             <div class="conteudo_cabecalho">
                 <img class="cabecalho_logo-tablet" src="./imagens/greatvibesbranco.png" alt="logomarca samhost">
                 <img class="sublinhado_logo-tablet" src="./imagens/sublinhadobranco-logo.svg" alt="">
-    
                 <img class="cabecalho_logo" src="./imagens/greatvibespequenobranco.png" alt="logomarca samhost">
-                <ul class="cabecalho_menu">
-                    <li><a class="nav_menu" href="index.html">Home</a></li>
-                    <li><a class="nav_menu" href="webradio.html">Web Rádio</a></li>
-                    <li><a class="nav_menu" href="webtv.html">Web TV</a></li>
-                    <li><a class="nav_menu" href="webradioetv.html">Web Rádio + TV</a></li>
-                    <li><a class="nav_menu" href="sitesmodelo.html">Sites Modelo</a></li>
-                    <li><a class="nav_menu" href="https://clientes.samhost.com.br/index.php?rp=/login">Área dos clientes</a></li>
-                </ul>
+                <nav id="nav">
+                    <button aria-label="Abrir Menu" id="btn_mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+    
+                        <span id="hamburger"></span>
+                    </button>
+                    <ul class="cabecalho_menu" role="menu">
+                        <li><a class="nav_menu" href="index.html">Home</a></li>
+                        <li><a class="nav_menu" href="webradio.html">Web Rádio</a></li>
+                        <li><a class="nav_menu" href="webtv.html">Web TV</a></li>
+                        <li><a class="nav_menu" href="webradioetv.html">Web Rádio + TV</a></li>
+                        <li><a class="nav_menu" href="sitesmodelo.html">Sites Modelo</a></li>
+                        <li><a class="nav_menu" href="https://clientes.samhost.com.br/index.php?rp=/login">Área dos clientes</a></li>
+                    </ul>
+                </nav>
             </div>
         </header>
         <section class="introducao">
@@ -37,60 +42,62 @@
                 <img class="imagem_introducao" src="./imagens/webRadioetv/bg_webRadioetv.jpg" alt="Imagem de flor">
             </div>
         </section>
-        <section class="container_base">
-            <h2 class="titulo_base">Características base</h2>
-            <div class="conteudo_base">
-                <div class="caracteristica">
-                    <img class="icone_caracterisca" src="./imagens/webRadioetv/icones/espectadores_icone.png" alt="Ícone espectadores">
-                    <p class="texto_caracteristica">Espectadores ilimitados</p>
-                </div>
+        <section class="base">
+            <div class="container_base">
+                <h2 class="titulo_base">Características base</h2>
+                <div class="conteudo_base">
+                    <div class="caracteristica">
+                        <img class="icone_caracterisca" src="./imagens/webRadioetv/icones/espectadores_icone.png" alt="Ícone espectadores">
+                        <p class="texto_caracteristica">Espectadores ilimitados</p>
+                    </div>
+        
+                    <div class="caracteristica">
+                        <img class="icone_caracterisca" src="./imagens/webRadioetv/icones/android_icone.png" alt="Ícone android">
+                        <p class="texto_caracteristica">Aplicativo publicado na Play Store</p>
+                    </div>
+        
+                    <div class="caracteristica">
+                        <img class="icone_caracterisca" src="./imagens/webRadioetv/icones/modelosite_icone.png" alt="Ícone site">
+                        <p class="texto_caracteristica">6 modelos de sites admnistráveis</p>
+                    </div>
+        
+                    <div class="caracteristica">
+                        <img class="icone_caracterisca" src="./imagens/webRadioetv/icones/redessociais_icone.png" alt="Ícone redes sociais">
+                        <p class="texto_caracteristica">Transmissões para as redes sociais</p>
+                    </div>
+        
+                    <div class="caracteristica">
+                        <img class="icone_caracterisca" src="./imagens/webRadioetv/icones/performance_icone.png" alt="Ícone performance">
+                        <p class="texto_caracteristica">Alta performance em HD</p>
+                    </div>
+        
+                    <div class="caracteristica">
+                        <img class="icone_caracterisca" src="./imagens/webRadioetv/icones/simultaneo_icone.png" alt="Ícone simultaneadade">
+                        <p class="texto_caracteristica">Transmissão simultânea
+                            com as redes sociais</p>
+                    </div>
+        
+                    <div class="caracteristica">
+                        <img class="icone_caracterisca" src="./imagens/webRadioetv/icones/youtube_icone.png" alt="Ícone youtube">
+                        <p class="texto_caracteristica">Youtube downloader</p>
+                    </div>
+        
+                    <div class="caracteristica">
+                        <img class="icone_caracterisca" src="./imagens/webRadioetv/icones/autodj_icone.png" alt="Ícone dj">
+                        <p class="texto_caracteristica">Transmissão ao vivo e auto DJ</p>
+                    </div>
+        
+                    <div class="caracteristica">
+                        <img class="icone_caracterisca" src="./imagens/webRadioetv/icones/celular_icone.png" alt="Ícone celular">
+                        <p class="texto_caracteristica">Transmissão ao vivo pelo celular</p>
+                    </div>
+        
+                    <div class="caracteristica">
+                        <img class="icone_caracterisca" src="./imagens/webRadioetv/icones/mp3_icone.png" alt="Ícone mp3">
+                        <p class="texto_caracteristica">Biblioteca com milhares de músicas MP3</p>
+                    </div>
     
-                <div class="caracteristica">
-                    <img class="icone_caracterisca" src="./imagens/webRadioetv/icones/android_icone.png" alt="Ícone android">
-                    <p class="texto_caracteristica">Aplicativo publicado na Play Store</p>
                 </div>
-    
-                <div class="caracteristica">
-                    <img class="icone_caracterisca" src="./imagens/webRadioetv/icones/modelosite_icone.png" alt="Ícone site">
-                    <p class="texto_caracteristica">6 modelos de sites admnistráveis</p>
-                </div>
-    
-                <div class="caracteristica">
-                    <img class="icone_caracterisca" src="./imagens/webRadioetv/icones/redessociais_icone.png" alt="Ícone redes sociais">
-                    <p class="texto_caracteristica">Transmissões para as redes sociais</p>
-                </div>
-    
-                <div class="caracteristica">
-                    <img class="icone_caracterisca" src="./imagens/webRadioetv/icones/performance_icone.png" alt="Ícone performance">
-                    <p class="texto_caracteristica">Alta performance em HD</p>
-                </div>
-    
-                <div class="caracteristica">
-                    <img class="icone_caracterisca" src="./imagens/webRadioetv/icones/simultaneo_icone.png" alt="Ícone simultaneadade">
-                    <p class="texto_caracteristica">Transmissão simultânea
-                        com as redes sociais</p>
-                </div>
-    
-                <div class="caracteristica">
-                    <img class="icone_caracterisca" src="./imagens/webRadioetv/icones/youtube_icone.png" alt="Ícone youtube">
-                    <p class="texto_caracteristica">Youtube downloader</p>
-                </div>
-    
-                <div class="caracteristica">
-                    <img class="icone_caracterisca" src="./imagens/webRadioetv/icones/autodj_icone.png" alt="Ícone dj">
-                    <p class="texto_caracteristica">Transmissão ao vivo e auto DJ</p>
-                </div>
-    
-                <div class="caracteristica">
-                    <img class="icone_caracterisca" src="./imagens/webRadioetv/icones/celular_icone.png" alt="Ícone celular">
-                    <p class="texto_caracteristica">Transmissão ao vivo pelo celular</p>
-                </div>
-    
-                <div class="caracteristica">
-                    <img class="icone_caracterisca" src="./imagens/webRadioetv/icones/mp3_icone.png" alt="Ícone mp3">
-                    <p class="texto_caracteristica">Biblioteca com milhares de músicas MP3</p>
-                </div>
-
             </div>
         </section>
         <section class="container_produtos">
@@ -100,7 +107,7 @@
                     <div>
                         <h3 class="nome_produto">Rádio + TV Completa<br>R$99,90</h3>
                     </div>
-                    <img class="banner_produto" src="./imagens/bg-produto.jpg" alt="">
+                    <img class="banner_produto" src="./imagens/bg-produto2.jpg" alt="">
                     <div class="caracteristicas_produto">
                         <ul>
                             <li><p>- 320kbps para rádio</p></li>
@@ -116,7 +123,7 @@
                     <div>
                         <h3 class="nome_produto">Rádio + TV Platina<br>R$189,90</h3>
                     </div>
-                    <img class="banner_produto" src="./imagens/bg-produto.jpg" alt="">
+                    <img class="banner_produto" src="./imagens/bg-produto2.jpg" alt="">
                     <div class="caracteristicas_produto">
                         <ul>
                             <li><p>- 320kbps para rádio</p></li>
@@ -142,5 +149,6 @@
         <li class="contratos"><a href="contratos.html"><p>Contratos e políticas</p></a></li>
     </ul>
 </footer>
+<script src="./js/cabecalho.js"></script>
 </body>
 </html>

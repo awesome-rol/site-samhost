@@ -6,6 +6,8 @@
     display: flex;
     justify-content: space-around;
     padding: 30px 120px 30px 120px;
+    margin: 0 auto;
+    max-width: 1366px;
 }
 
 .cliente {
@@ -27,4 +29,48 @@
     font-size: 20px;
     padding: 30px;
     width: 300px;
+}
+
+@media screen and (max-width: 1150px) {
+    .imagem_cliente {
+        width: 120px;
+    }
+
+    .fala_cliente {
+        font-size: 16px;
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 875px) {
+    .conteudo_clientes {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .cliente {
+        margin: 30px;
+    }
+
+    .fala_cliente {
+        font-size: 20px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cliente {
+        flex-direction: column;
+        margin: 15px;
+    }
+
+    .imagem_cliente {
+        height: 120px;
+    }
+
+    .fala_cliente {
+        font-size: 16px;
+        text-align: center;
+    }
 }

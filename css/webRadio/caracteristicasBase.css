@@ -1,9 +1,14 @@
+.base {
+    background-color: #171027;
+}
+
 .container_base {
     align-items: center;
     display: flex;
-    background-color: #171027;
     flex-direction: column;
     width: 100%;
+    margin: 0 auto;
+    max-width: 1366px;
 }
 
 .conteudo_base {
@@ -35,4 +40,27 @@
     margin-top: 35px;
     text-align: center;
     width: 150px;
+}
+
+@media screen and (max-width: 1240px) {
+    .titulo_base {
+        font-size: 42px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .caracteristica {
+        margin: 60px 80px 0px 80px;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .caracteristica {
+        margin: 60px 40px 0px 40px;
+    }
+
+    .texto_caracteristica {
+        font-size: 21px;
+        width: 100%;
+    }
 }

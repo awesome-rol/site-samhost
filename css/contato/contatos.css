@@ -6,6 +6,8 @@
     display: flex;
     flex-direction: row;
     height: 100%;
+    margin: 0 auto;
+    max-width: 1366px;
 }
 
 .informacoes {
@@ -69,4 +71,39 @@
     justify-content: space-between;
     margin: 100px 0px 10px 0px;
     width: 200px;
+}
+
+@media screen and (max-width: 1300px) {
+    .conteudo_contato {
+        flex-direction: column;
+    }
+
+    .vendas, .suporte {
+        align-items: center;
+        width: 100%;
+    }
+
+    .informacoes {
+        margin-left: 0px;
+    }
+
+    .email, .whatsapp {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email ul {
+        flex-direction: column;
+    }
+
+    .whatsapp ul {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .endereco_email {
+        font-size: 19px;
+    }
 }

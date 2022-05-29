@@ -48,3 +48,27 @@
 .contratos {
     width: 180px;
 }
+
+@media screen and (max-width: 660px) {
+    .rodape {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    
+    .links_rodape {
+        margin: 15px 30px 0px 0px;
+        font-size: 20px;
+        width: 370px;
+    }
+
+    .contratos {
+        width: 200px;
+    }
+
+    .copyright {
+        margin: 20px 60px;
+        text-align: center;
+        width: 100%;
+    }
+}
+

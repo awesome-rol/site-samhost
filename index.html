@@ -18,20 +18,25 @@
     <link rel="stylesheet" href="./css/geral.css">
 </head>
 <body>
-    <header class="container_cabecalho">
+    <header class="container_cabecalho"> 
         <div class="conteudo_cabecalho">
             <img class="cabecalho_logo-tablet" src="./imagens/greatvibesbranco.png" alt="logomarca samhost">
             <img class="sublinhado_logo-tablet" src="./imagens/sublinhadobranco-logo.svg" alt="">
-
             <img class="cabecalho_logo" src="./imagens/greatvibespequenobranco.png" alt="logomarca samhost">
-            <ul class="cabecalho_menu">
-                <li><a class="nav_menu" href="index.html">Home</a></li>
-                <li><a class="nav_menu" href="webradio.html">Web Rádio</a></li>
-                <li><a class="nav_menu" href="webtv.html">Web TV</a></li>
-                <li><a class="nav_menu" href="webradioetv.html">Web Rádio + TV</a></li>
-                <li><a class="nav_menu" href="sitesmodelo.html">Sites Modelo</a></li>
-                <li><a class="nav_menu" href="https://clientes.samhost.com.br/index.php?rp=/login">Área dos clientes</a></li>
-            </ul>
+            <nav id="nav">
+                <button aria-label="Abrir Menu" id="btn_mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+
+                    <span id="hamburger"></span>
+                </button>
+                <ul class="cabecalho_menu" role="menu">
+                    <li><a class="nav_menu" href="index.html">Home</a></li>
+                    <li><a class="nav_menu" href="webradio.html">Web Rádio</a></li>
+                    <li><a class="nav_menu" href="webtv.html">Web TV</a></li>
+                    <li><a class="nav_menu" href="webradioetv.html">Web Rádio + TV</a></li>
+                    <li><a class="nav_menu" href="sitesmodelo.html">Sites Modelo</a></li>
+                    <li><a class="nav_menu" href="https://clientes.samhost.com.br/index.php?rp=/login">Área dos clientes</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
@@ -159,17 +164,19 @@
                 </div>
             </div>
         </section>
-        <section class="container_sobreNos">
-            <div class="conteudo_sobreNos">
-                <h2 class="titulo_sobreNos">Sobre nós</h2>
-                <div class="textos_sobreNos">
-                    <p class="paragrafo_sobreNos"> Inaugurada em 2007, a SamHost, como parte do grupo “SAM - Centro de Tecnologia da Informação Ltda”, iniciou suas atividades de hospedagem de sites depois de uma história de sucesso numa parceria junto ao SENAI, na área de treinamentos de tecnologia, tendo formado mais de 10.000 alunos, contribuindo assim com a sociedade através da capacitação de novos profissionais.</p>
-                    <p class="paragrafo_sobreNos"> Somos uma  empresa pioneira nos serviços de hospedagem no Brasil. Com uma  equipe sempre comprometida a conquistar o respeito e a fidelidade  de nossos clientes, viemos crescendo e investindo em novas tecnologias, ganhando assim cada vez mais parceiros, principalmente pela indicação do famoso “boca a boca”.</p> 
-                    <p class="paragrafo_sobreNos"> Consolidada no mercado de tecnologia, com técnicos experientes, que são nossos colaboradores e muitos deles estão conosco desde a nossa fundação. Em uma constante otimização da nossa infraestrutura e contratação de profissionais cada vez mais, estamos em evolução constante, procurando entregar o que o cliente precisa, conforme as suas necessidades.</p>
+        <section class="container_sobre">
+            <div class="container_sobreNos">
+                <div class="conteudo_sobreNos">
+                    <h2 class="titulo_sobreNos">Sobre nós</h2>
+                    <div class="textos_sobreNos">
+                        <p class="paragrafo_sobreNos"> Inaugurada em 2007, a SamHost, como parte do grupo “SAM - Centro de Tecnologia da Informação Ltda”, iniciou suas atividades de hospedagem de sites depois de uma história de sucesso numa parceria junto ao SENAI, na área de treinamentos de tecnologia, tendo formado mais de 10.000 alunos, contribuindo assim com a sociedade através da capacitação de novos profissionais.</p>
+                        <p class="paragrafo_sobreNos"> Somos uma  empresa pioneira nos serviços de hospedagem no Brasil. Com uma  equipe sempre comprometida a conquistar o respeito e a fidelidade  de nossos clientes, viemos crescendo e investindo em novas tecnologias, ganhando assim cada vez mais parceiros, principalmente pela indicação do famoso “boca a boca”.</p> 
+                        <p class="paragrafo_sobreNos"> Consolidada no mercado de tecnologia, com técnicos experientes, que são nossos colaboradores e muitos deles estão conosco desde a nossa fundação. Em uma constante otimização da nossa infraestrutura e contratação de profissionais cada vez mais, estamos em evolução constante, procurando entregar o que o cliente precisa, conforme as suas necessidades.</p>
+                    </div>
                 </div>
+                <img class="imagem_sobreNos" src="./imagens/home/imagem_sobreNos.jpg" alt="Imagem estúdio de rádio">
             </div>
-            <img class="imagem_sobreNos" src="./imagens/home/imagem_sobreNos.jpg" alt="Imagem estúdio de rádio">
-        </section>
+        </section> 
         <section class="container_nossasMetas">
             <img class="imagem_nossasMetas" src="./imagens/home/imagem_nossasMetas.jpg" alt="Imagem estúdio de rádio">
             <div class="conteudo_nossasMetas">
@@ -193,5 +200,6 @@
         <li class="contratos"><a href="contratos.html"><p>Contratos e políticas</p></a></li>
     </ul>
 </footer>
+<script src="./js/cabecalho.js"></script>
 </body>
 </html>

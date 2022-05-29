@@ -1,6 +1,8 @@
 .container_porqueNos {
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1366px;
 }
 
 .conteudo_porqueNos {
@@ -41,6 +43,7 @@
 }
 
 .bg_vantagem {
+    object-fit: cover;
     vertical-align: top;
     width: 380px;
 }
@@ -79,5 +82,61 @@
     height: auto;
 }
 
-/* ---------- TABLETS ---------- */
+/* ---------- RESPONSIVO ---------- */
 
+@media screen and (max-width: 1250px) {
+    .imagem_equipeSuporte {
+        display: none;
+    }
+
+    .container_vantagens {
+        width: 100%;
+    }
+
+    .vantagem {
+        width: 42%;
+    }
+
+    .bg_vantagem {
+        height: 130px;
+        width: 100%;
+    }
+
+    .texto_vantagem {
+        width: 100%;
+    }
+
+    .texto_vantagem p {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    .introducao {
+        display: none;
+    }
+
+    .vantagem {
+        width: 100%;
+    }
+
+    .bg_vantagem {
+        opacity: 0;
+    }
+
+    .texto_vantagem {
+        border-radius: 40px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .titulo_porqueNos {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .vantagem {
+        margin: 0px 15px 60px 15px;
+    }
+}

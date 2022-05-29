@@ -1,8 +1,9 @@
 .container_nossasMetas {
     background-color: #ffffff;
     display: flex;
-    height: 580px;
     justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1366px;
 }
 
 .conteudo_nossasMetas {
@@ -22,7 +23,6 @@
 }
 
 .textos_nossasMetas {
-    height: 550px;
     margin-top: 20px;
     width: 795px;
     text-align: justify;
@@ -38,4 +38,43 @@
 
 .imagem_nossasMetas {
     width: 360px;
+}
+
+@media screen and (max-width: 1150px) {
+    .conteudo_nossasMetas {
+        margin: 0px 30px;
+    }
+
+    .titulo_nossasMetas {
+        font-size: 32px;
+        margin-left: 0px;
+    }
+
+    .imagem_nossasMetas {
+        display: none;
+    }
+    
+    .textos_nossasMetas {
+        width: 100%;
+    }
+
+    .paragrafo_nossasMetas {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .paragrafo_nossasMetas {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .titulo_nossasMetas {
+        font-size: 26px;
+    }
+
+    .paragrafo_nossasMetas {
+        font-size: 14px;
+    }
 }

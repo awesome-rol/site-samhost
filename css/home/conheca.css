@@ -28,6 +28,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+    object-fit: cover;
 }
 
 .icone_produto {
@@ -36,6 +37,7 @@
 }
 
 .titulo_produto {
+    color: #171027;
     font-family: MuseoModerno;
     font-size: 30px;
     font-weight: bold;
@@ -80,4 +82,34 @@
 
 .btn_produto:active {
     color: #ffffff;
+}
+
+@media screen and (max-width: 1150px) {
+    .titulo_conheca {
+        font-size: 32px;
+    }
+
+    .conteudo_conheca {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .produto {
+        margin: 0px 60px;
+    }
+
+    .container_legendaProduto {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .titulo_conheca {
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+
+    .produto {
+        margin: 20px 15px 0px 15px;
+    }
 }

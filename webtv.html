@@ -14,20 +14,25 @@
     <link rel="stylesheet" href="./css/geral.css">
 </head>
 <body>
-    <header class="container_cabecalho">
+    <header class="container_cabecalho"> 
         <div class="conteudo_cabecalho">
             <img class="cabecalho_logo-tablet" src="./imagens/greatvibesbranco.png" alt="logomarca samhost">
             <img class="sublinhado_logo-tablet" src="./imagens/sublinhadobranco-logo.svg" alt="">
-
             <img class="cabecalho_logo" src="./imagens/greatvibespequenobranco.png" alt="logomarca samhost">
-            <ul class="cabecalho_menu">
-                <li><a class="nav_menu" href="index.html">Home</a></li>
-                <li><a class="nav_menu" href="webradio.html">Web Rádio</a></li>
-                <li><a class="nav_menu" href="webtv.html">Web TV</a></li>
-                <li><a class="nav_menu" href="webradioetv.html">Web Rádio + TV</a></li>
-                <li><a class="nav_menu" href="sitesmodelo.html">Sites Modelo</a></li>
-                <li><a class="nav_menu" href="https://clientes.samhost.com.br/index.php?rp=/login">Área dos clientes</a></li>
-            </ul>
+            <nav id="nav">
+                <button aria-label="Abrir Menu" id="btn_mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+
+                    <span id="hamburger"></span>
+                </button>
+                <ul class="cabecalho_menu" role="menu">
+                    <li><a class="nav_menu" href="index.html">Home</a></li>
+                    <li><a class="nav_menu" href="webradio.html">Web Rádio</a></li>
+                    <li><a class="nav_menu" href="webtv.html">Web TV</a></li>
+                    <li><a class="nav_menu" href="webradioetv.html">Web Rádio + TV</a></li>
+                    <li><a class="nav_menu" href="sitesmodelo.html">Sites Modelo</a></li>
+                    <li><a class="nav_menu" href="https://clientes.samhost.com.br/index.php?rp=/login">Área dos clientes</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
@@ -37,67 +42,69 @@
                 <img class="imagem_introducao" src="./imagens/webTV/bg-webTV.jpg" alt="Imagem de flores">
             </div>
         </section>
-        <section class="container_base">
-            <h2 class="titulo_base">Características base</h2>
-            <div class="conteudo_base">
-                <div class="caracteristica">
-                    <img class="icone_caracterisca" src="./imagens/webTV/icones/espectadores_icone.png" alt="Ícone ouvintes">
-                    <p class="texto_caracteristica">Espectadores ilimitados</p>
-                </div>
-
-                <div class="caracteristica">
-                    <img class="icone_caracterisca" src="./imagens/webTV/icones/redessociais_icone.png" alt="Ícone redes sociais">
-                    <p class="texto_caracteristica">Transmissão para as redes sociais</p>
-                </div>
-
-                <div class="caracteristica">
-                    <img class="icone_caracterisca" src="./imagens/webTV/icones/android_icone.png" alt="Ícone android">
-                    <p class="texto_caracteristica">Aplicativo publicado na Play Store</p>
-                </div>
-
-                <div class="caracteristica">
-                    <img class="icone_caracterisca" src="./imagens/webTV/icones/modelosite_icone.png" alt="Ícone site">
-                    <p class="texto_caracteristica">6 modelos de sites admnistráveis</p>
-                </div>
-
-                <div class="caracteristica">
-                    <img class="icone_caracterisca" src="./imagens/webTV/icones/fullhd_icone.png" alt="Ícone hd">
-                    <p class="texto_caracteristica">Transmissões Full HD ao vivo ilimitadas</p>
-                </div>
-
-                <div class="caracteristica">
-                    <img class="icone_caracterisca" src="./imagens/webTV/icones/youtube_icone.png" alt="Ícone Youtube">
-                    <p class="texto_caracteristica">Youtube Downloader</p>
-                </div>
-
-                <div class="caracteristica">
-                    <img class="icone_caracterisca" src="./imagens/webTV/icones/player_icone.png" alt="Ícone tag html">
-                    <p class="texto_caracteristica">Modelo de Player em HTML com SSL</p>
-                </div>
-
-                <div class="caracteristica">
-                    <img class="icone_caracterisca" src="./imagens/webTV/icones/gravador_icone.png" alt="Ícone gravador">
-                    <p class="texto_caracteristica">Gravador de Transmissão</p>
-                </div>
-
-                <div class="caracteristica">
-                    <img class="icone_caracterisca" src="./imagens/webTV/icones/trafego_icone.png" alt="Ícone tráfego">
-                    <p class="texto_caracteristica">Tráfego ilimitado</p>
-                </div>
-
-                <div class="caracteristica">
-                    <img class="icone_caracterisca" src="./imagens/webTV/icones/performance_icone.png" alt="Ícone performance">
-                    <p class="texto_caracteristica">Alta performance em HD</p>
-                </div>
-
-                <div class="caracteristica">
-                    <img class="icone_caracterisca" src="./imagens/webTV/icones/ios_icone.png" alt="Ícone IOS">
-                    <p class="texto_caracteristica">App para IOS sem publicação</p>
-                </div>
-
-                <div class="caracteristica">
-                    <img class="icone_caracterisca" src="./imagens/webTV/icones/simultaneo_icone.png" alt="Ícone simultaneadade">
-                    <p class="texto_caracteristica">Transmissão simultânea com as redes sociais</p>
+        <section class="base">
+            <div class="container_base">
+                <h2 class="titulo_base">Características base</h2>
+                <div class="conteudo_base">
+                    <div class="caracteristica">
+                        <img class="icone_caracterisca" src="./imagens/webTV/icones/espectadores_icone.png" alt="Ícone ouvintes">
+                        <p class="texto_caracteristica">Espectadores ilimitados</p>
+                    </div>
+    
+                    <div class="caracteristica">
+                        <img class="icone_caracterisca" src="./imagens/webTV/icones/redessociais_icone.png" alt="Ícone redes sociais">
+                        <p class="texto_caracteristica">Transmissão para as redes sociais</p>
+                    </div>
+    
+                    <div class="caracteristica">
+                        <img class="icone_caracterisca" src="./imagens/webTV/icones/android_icone.png" alt="Ícone android">
+                        <p class="texto_caracteristica">Aplicativo publicado na Play Store</p>
+                    </div>
+    
+                    <div class="caracteristica">
+                        <img class="icone_caracterisca" src="./imagens/webTV/icones/modelosite_icone.png" alt="Ícone site">
+                        <p class="texto_caracteristica">6 modelos de sites admnistráveis</p>
+                    </div>
+    
+                    <div class="caracteristica">
+                        <img class="icone_caracterisca" src="./imagens/webTV/icones/fullhd_icone.png" alt="Ícone hd">
+                        <p class="texto_caracteristica">Transmissões Full HD ao vivo ilimitadas</p>
+                    </div>
+    
+                    <div class="caracteristica">
+                        <img class="icone_caracterisca" src="./imagens/webTV/icones/youtube_icone.png" alt="Ícone Youtube">
+                        <p class="texto_caracteristica">Youtube Downloader</p>
+                    </div>
+    
+                    <div class="caracteristica">
+                        <img class="icone_caracterisca" src="./imagens/webTV/icones/player_icone.png" alt="Ícone tag html">
+                        <p class="texto_caracteristica">Modelo de Player em HTML com SSL</p>
+                    </div>
+    
+                    <div class="caracteristica">
+                        <img class="icone_caracterisca" src="./imagens/webTV/icones/gravador_icone.png" alt="Ícone gravador">
+                        <p class="texto_caracteristica">Gravador de Transmissão</p>
+                    </div>
+    
+                    <div class="caracteristica">
+                        <img class="icone_caracterisca" src="./imagens/webTV/icones/trafego_icone.png" alt="Ícone tráfego">
+                        <p class="texto_caracteristica">Tráfego ilimitado</p>
+                    </div>
+    
+                    <div class="caracteristica">
+                        <img class="icone_caracterisca" src="./imagens/webTV/icones/performance_icone.png" alt="Ícone performance">
+                        <p class="texto_caracteristica">Alta performance em HD</p>
+                    </div>
+    
+                    <div class="caracteristica">
+                        <img class="icone_caracterisca" src="./imagens/webTV/icones/ios_icone.png" alt="Ícone IOS">
+                        <p class="texto_caracteristica">App para IOS sem publicação</p>
+                    </div>
+    
+                    <div class="caracteristica">
+                        <img class="icone_caracterisca" src="./imagens/webTV/icones/simultaneo_icone.png" alt="Ícone simultaneadade">
+                        <p class="texto_caracteristica">Transmissão simultânea com as redes sociais</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -109,7 +116,7 @@
                         <div>
                             <h3 class="nome_produto">TV Plus<br>R$79,90</h3>
                         </div>
-                        <img class="banner_produto" src="./imagens/bg-produto.jpg" alt="">
+                        <img class="banner_produto" src="./imagens/bg-produto2.jpg" alt="">
                         <div class="caracteristicas_produto">
                             <ul>
                                 <li>- Bitrate de 2048 kbps</li>
@@ -125,7 +132,7 @@
                             <h3 class="nome_produto">TV Completa<br>R$99,90</h3>
                             <h3 class="preco_produto"></h3>
                         </div>
-                        <img class="banner_produto" src="./imagens/bg-produto.jpg" alt="">
+                        <img class="banner_produto" src="./imagens/bg-produto2.jpg" alt="">
                         <div class="caracteristicas_produto">
                             <ul>
                                 <li>- Bitrate de 2500 kbps</li>
@@ -140,7 +147,7 @@
                         <div>
                             <h3 class="nome_produto">TV Master<br>R$149,90</h3>
                         </div>
-                        <img class="banner_produto" src="./imagens/bg-produto.jpg" alt="">
+                        <img class="banner_produto" src="./imagens/bg-produto2.jpg" alt="">
                         <div class="caracteristicas_produto">
                             <ul>
                                 <li>- Bitrate de 5000 kbps</li>
@@ -157,7 +164,7 @@
                         <div>
                             <h3 class="nome_produto">TV Safira<br>R$129,90</h3>
                         </div>
-                        <img class="banner_produto" src="./imagens/bg-produto.jpg" alt="">
+                        <img class="banner_produto" src="./imagens/bg-produto2.jpg" alt="">
                         <div class="caracteristicas_produto">
                             <ul>
                                 <li>- Bitrate de 2500 kbps</li>
@@ -172,7 +179,7 @@
                         <div>
                             <h3 class="nome_produto">TV Platina<br>R$169,90</h3>
                         </div>
-                        <img class="banner_produto" src="./imagens/bg-produto.jpg" alt="">
+                        <img class="banner_produto" src="./imagens/bg-produto2.jpg" alt="">
                         <div class="caracteristicas_produto">
                             <ul>
                                 <li>- Bitrate de 4096 kbps</li>
@@ -195,6 +202,6 @@
         <li class="contratos"><a href="contratos.html"><p>Contratos e políticas</p></a></li>
     </ul>
 </footer>
-    
+<script src="./js/cabecalho.js"></script>
 </body>
 </html>

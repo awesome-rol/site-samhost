@@ -1,6 +1,7 @@
 .imagem_introducao {
     position: relative;
     height: 300px;
+    object-fit: cover;
     vertical-align: top;
     width: 100%;
     z-index: 1;
@@ -16,4 +17,30 @@
     right: 0;
     text-align: center;
     z-index: 2;
+}
+
+@media screen and (max-width: 980px) {
+    .titulo_webRadioetv {
+        font-size: 100px;
+        margin: 100px 15px 0px 15px;
+    }
+}
+
+@media screen and (max-width: 796px) {
+    .titulo_webRadioetv {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 644px) {
+    .titulo_webRadioetv {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .titulo_webRadioetv {
+        font-size: 60px;
+        margin-top: 100px;
+    }
 }

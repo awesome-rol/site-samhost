@@ -4,6 +4,7 @@
 }
 
 .conteudo_cabecalho {
+    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -14,7 +15,7 @@
 }
 
 .cabecalho_logo {
-    margin-left: 60px;
+    margin-left: 30px;
     padding: 10px 0px;
 }
 
@@ -23,9 +24,9 @@
 }
 
 .cabecalho_menu {
-    display: flex;
     align-items: center;
-    margin-right: 60px;
+    display: flex;
+    margin-right: 30px;
 }
 
 .nav_menu {
@@ -46,47 +47,104 @@
     margin: 0px 30px 0px 30px;
 }
 
-/*---------- TABLETS ----------*/
+
+#btn_mobile {
+    display: none;
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 1195px) {
+    .nav_menu {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1032px) {
+    .cabecalho_menu {
+        margin-right: 20px;
+    }
+}
+
 
 @media screen and (max-width: 1024px) {
-
     .cabecalho_logo {
-        display: none;
+        margin-left: 20px;
     }
 
-    .cabecalho_logo-tablet {
-        display: block;
-        margin: 30px auto;
-    }
-
-    .sublinhado_logo-tablet {
-        display: block;
-        width: 330px;
-    }
-
-    .conteudo_cabecalho {
-        align-items: center;
-        flex-direction: column;
-    }
 
     .cabecalho_menu {
-        flex-direction: column;
-        flex-wrap: wrap;
-        height: 200px;
-        margin: 60px auto 60px auto;
-        width: 520px;
-    }
-
-    .cabecalho_menu li {
-        margin: 0px 0px 20px 0px;
-        height: 46px;
-        text-align: justify;
-        width: 220px;
+        background: #171027;
+        border-bottom: 2px solid;
+        border-bottom-color: #4a337d;
+        display: block;
+        height: 0px;
+        left: 0;
+        margin: 0 auto;
+        overflow-y: hidden;
+        position: absolute;
+        right: 0px;
+        text-align: center;
+        top: 100px;
+        transition: .6s;
+        visibility: hidden;
+        width: 100%;
+        z-index: 1000;
     }
 
     .nav_menu {
-        font-size: 26px;
-        padding-bottom: 0px;
+        padding: 10px;
     }
 
+
+    #nav.active .cabecalho_menu {
+        height: calc(100vh - 100px);        
+        visibility: visible;
+    }
+
+    .cabecalho_menu li {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid #4a337d;
+    }
+
+    #btn_mobile {
+        background: none;
+        border: none;
+        color: #ffffff;
+        cursor: pointer;
+        display: flex;
+        font-size: 1rem;
+        padding: .5rem 1rem;
+        gap: .5rem;
+    }
+
+    #hamburger {
+        color: #ffffff;
+        border-top: 2px solid;
+        width: 20px;
+    }
+
+    #hamburger::after, #hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        position: relative;
+        transition: .2s;
+    }
+
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
 }

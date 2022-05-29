@@ -25,6 +25,7 @@
 
 .banner_produto {
     height: 190px;
+    object-fit: cover;
     position: relative;
     text-align: center;
     vertical-align: top;
@@ -81,7 +82,7 @@
     margin-top: 0px;
     padding: 10px 0px 10px 0px;
     text-decoration: none;
-    width: 360px;
+    width: 100%;
 }
 
 .botao:hover {
@@ -90,4 +91,57 @@
 }
 .botao:active {
     color: #ffffff;
+}
+
+@media screen and (max-width: 1000px) {
+    .conteudo_produtos {
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .produto_radioetv {
+        width: 80%;
+    }
+
+    .nome_produto {
+        text-align: center;
+        margin: 30px auto auto auto;
+        left: 0;
+        right: 0;
+    }
+
+    .banner_produto {
+        width: 100%;
+    }
+
+    .caracteristicas_produto ul {
+        height: auto;
+        font-size: 26px;
+        line-height: 60px;
+        margin-bottom: 60px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .botao {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .caracteristicas_produto {
+        font-size: 18px;
+    }
+
+    .produto_radioetv {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .nome_produto {
+        font-size: 32px;
+        width: auto;
+    }
 }

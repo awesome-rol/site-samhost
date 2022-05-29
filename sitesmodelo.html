@@ -14,20 +14,25 @@
     <link rel="stylesheet" href="./css/geral.css">
 </head>
 <body>
-    <header class="container_cabecalho">
+    <header class="container_cabecalho"> 
         <div class="conteudo_cabecalho">
             <img class="cabecalho_logo-tablet" src="./imagens/greatvibesbranco.png" alt="logomarca samhost">
             <img class="sublinhado_logo-tablet" src="./imagens/sublinhadobranco-logo.svg" alt="">
-
             <img class="cabecalho_logo" src="./imagens/greatvibespequenobranco.png" alt="logomarca samhost">
-            <ul class="cabecalho_menu">
-                <li><a class="nav_menu" href="index.html">Home</a></li>
-                <li><a class="nav_menu" href="webradio.html">Web Rádio</a></li>
-                <li><a class="nav_menu" href="webtv.html">Web TV</a></li>
-                <li><a class="nav_menu" href="webradioetv.html">Web Rádio + TV</a></li>
-                <li><a class="nav_menu" href="sitesmodelo.html">Sites Modelo</a></li>
-                <li><a class="nav_menu" href="https://clientes.samhost.com.br/index.php?rp=/login">Área dos clientes</a></li>
-            </ul>
+            <nav id="nav">
+                <button aria-label="Abrir Menu" id="btn_mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+
+                    <span id="hamburger"></span>
+                </button>
+                <ul class="cabecalho_menu" role="menu">
+                    <li><a class="nav_menu" href="index.html">Home</a></li>
+                    <li><a class="nav_menu" href="webradio.html">Web Rádio</a></li>
+                    <li><a class="nav_menu" href="webtv.html">Web TV</a></li>
+                    <li><a class="nav_menu" href="webradioetv.html">Web Rádio + TV</a></li>
+                    <li><a class="nav_menu" href="sitesmodelo.html">Sites Modelo</a></li>
+                    <li><a class="nav_menu" href="https://clientes.samhost.com.br/index.php?rp=/login">Área dos clientes</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
@@ -152,5 +157,6 @@
         <li class="contratos"><a href="contratos.html"><p>Contratos e políticas</p></a></li>
     </ul>
 </footer>
+<script src="./js/cabecalho.js"></script>
 </body>
 </html>

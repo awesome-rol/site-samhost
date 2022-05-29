@@ -17,7 +17,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 0px 60px 0px 60px;
+    margin: 0px auto;
+    max-width: 1366px;
     padding-bottom: 60px;
 }
 
@@ -53,7 +54,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 0px 60px 0px 60px;
+    margin: 0px auto;
+    max-width: 1366px;
     padding-bottom: 60px;
 }
 

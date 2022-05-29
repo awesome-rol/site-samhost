@@ -21,7 +21,9 @@ html, body
 /* Conheça nossos produtos */
 
 .container_imagensProduto {
-    background-image: url(../imagens/bg-produto.jpg);
+    background-image: url(../imagens/bg-produto2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* ------------------- FIM DA HOME ------------------- */

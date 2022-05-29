@@ -1,4 +1,6 @@
 .container_contato {
+    margin: 0 auto;
+    max-width: 1366px;
     width: 100%;
 }
 
@@ -33,12 +35,15 @@
     width: 50%;
 }
 
-.suporte {
+.container_suporte {
     background-color: #171027;
+    width: 100%;
+}
+
+.suporte {
     color: #ffffff;
     display: flex;
     flex-direction: column;
-    width: 50%;
 }
 
 .email {
@@ -73,7 +78,36 @@
     width: 200px;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (min-width: 1380px) {
+    .conteudo_contato {
+        flex-direction: column;
+    }
+
+    .vendas, .suporte {
+        align-items: center;
+        width: 100%;
+    }
+
+    .informacoes {
+        margin-left: 0px;
+    }
+
+    .email, .whatsapp {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email ul {
+        flex-direction: column;
+    }
+
+    .whatsapp ul {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1365px) {
     .conteudo_contato {
         flex-direction: column;
     }

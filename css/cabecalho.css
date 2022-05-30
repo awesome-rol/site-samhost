@@ -68,6 +68,20 @@
 
 
 @media screen and (max-width: 1024px) {
+    main {
+        padding-top: 100px;
+    }
+    
+    .conteudo_cabecalho {
+        background-color: #171027;
+        position: fixed;
+        top: 0;
+        height: 100px;
+        width: 100%;
+        z-index: 2000;
+    }
+
+
     .cabecalho_logo-mobile {
         display: block;
         margin-left: 20px;

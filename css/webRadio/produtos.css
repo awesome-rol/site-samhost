@@ -87,8 +87,28 @@
     color: #ffffff;
 }
 
+.linkRadioeTV {
+    color: #171027;
+    font-family: MuseoModerno;
+    font-size: 22px;
+    margin-bottom: 55px;
+}
+
+.linkRadioeTV a {
+    color: #9875e6;
+}
+
+.linkRadioeTV a:hover {
+    color: #f3ae1a;
+}
+
+.linkRadioeTV a:active {
+    color: #ff9100;
+}
+
 
 @media screen and (max-width: 1280px) {
+
     .conteudo_produtos {
         flex-wrap: wrap;
     }
@@ -127,6 +147,12 @@
     .botao {
         font-size: 32px;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .linkRadioeTV {
+        display: none;
     }
 }
 

@@ -101,6 +101,25 @@
     color: #ffffff;
 }
 
+.linkRadioeTV {
+    color: #171027;
+    font-family: MuseoModerno;
+    font-size: 22px;
+    margin-bottom: 55px;
+}
+
+.linkRadioeTV a {
+    color: #9875e6;
+}
+
+.linkRadioeTV a:hover {
+    color: #f3ae1a;
+}
+
+.linkRadioeTV a:active {
+    color: #ff9100;
+}
+
 @media screen and (max-width: 1290px) {
     .produto_tv {
         margin: 60px 15px 0px 15px;
@@ -137,5 +156,11 @@
     .caracteristicas_produto ul {
         font-size: 22px;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .linkRadioeTV {
+        display: none;
     }
 }
